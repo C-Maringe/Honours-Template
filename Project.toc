@@ -1,0 +1,19 @@
+\contentsline {chapter}{Table of Contents}{iii}{}%
+\baselineskip =0.7\baselineskip 
+\contentsline {chapter}{List of Tables}{iv}{}%
+\contentsline {chapter}{List of Figures}{v}{}%
+\contentsline {chapter}{Abstract}{vi}{}%
+\contentsline {chapter}{Acknowledgements}{vii}{}%
+\contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{}%
+\addvspace {10\p@ }
+\contentsline {chapter}{\numberline {Chapter 2}Literature Review}{2}{}%
+\addvspace {10\p@ }
+\contentsline {chapter}{\numberline {Chapter 3}Methodology}{3}{}%
+\addvspace {10\p@ }
+\contentsline {chapter}{\numberline {Chapter 4}Data Analysis and Results}{4}{}%
+\addvspace {10\p@ }
+\contentsline {chapter}{\numberline {Chapter 5}Discussions, Conclusions and Recommendations}{5}{}%
+\addvspace {10\p@ }
+\contentsline {chapter}{Bibliography}{6}{}%
+\contentsline {chapter}{\numberline {Appendix A}***** }{7}{}%
+\addvspace {10\p@ }

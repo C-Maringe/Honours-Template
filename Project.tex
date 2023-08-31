@@ -1,0 +1,192 @@
+ % ------------------------------------------------------------------------
+% AMF-LaTeX definitions: DAL Thesis ++++ Alex, September 1994 ************
+% ------------------------------------------------------------------------
+% Ph.D. Thesis Defended on November 25, 1994
+% ------------------------------------------------------------------------
+%\documentclass[12pt, dalthesis]{report}
+
+\documentclass[12pt, glossary]{dalthesis}
+\usepackage{graphicx}
+
+
+\usepackage{emlines2,bezier,latexsym,amssymb,  bbb}
+\usepackage{fanchead}
+\usepackage{float}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[round, sort, comma]{natbib}
+
+\setlength{\parskip}{0pt}
+\setlength{\intextsep}{0pt}
+\setlength{\textfloatsep}{0pt}
+\setlength{\floatsep}{0pt}
+
+\DeclareGraphicsRule{.wmf}{bmp}{}{} %declare WMF filename extension
+\usepackage[centertags]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{newlfont}
+
+%\usepackage{hyperref}
+%\usepackage[pdf]{graphics}
+%\usepackage{The_cv} %DAL Thesis Style
+ \usepackage{Tocinc} %Include Table of Contents as the first entry in TOC
+%                     Faculty of Grad Studies insists on this!?
+%\usepackage[active]{srcltx} %SRC Specials for DVI search
+%Fuzz -------------------------------------------------------------------
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+
+%\ Line spacing -----------------------------------------------------------
+%\newlength{\defbaselineskip}
+%\setlength{\defbaselineskip}{\baselineskip}
+%\newcommand{\setlinespacing}[1]%
+%           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+%\newcommand{\doublespacing}{\setlength{\baselineskip}%
+%                           {2.0 \defbaselineskip}}
+%\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+
+
+% MATH -------------------------------------------------------------------
+\newcommand{\A}{{\cal A}}
+\newcommand{\h}{{\cal H}}
+\newcommand{\s}{{\cal S}}
+\newcommand{\W}{{\cal W}}
+\newcommand{\BH}{\mathbf B(\cal H)}
+\newcommand{\KH}{\cal  K(\cal H)}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\Complex}{\mathbb C}
+\newcommand{\Field}{\mathbb F}
+\newcommand{\RPlus}{[0,\infty)}
+%
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\essnorm}[1]{\norm{#1}_{\text{\rm\normalshape ess}}}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\RE}{\operatorname{Re}}
+\newcommand{\IM}{\operatorname{Im}}
+\newcommand{\Poly}{{\cal{P}}(E)}
+\newcommand{\EssD}{{\cal{D}}}
+
+% THEOREMS ---------------------------------------------------------------
+\newtheorem{key}{Keywords}[chapter]
+\newtheorem{rem}{Remark}[chapter]
+\newtheorem{note}{Note}[chapter]
+\newtheorem{bul}{Bullet}[chapter]
+\newtheorem{defn}{Definition}[chapter]
+\newtheorem{exa}{Example}[chapter]
+\newtheorem{ex}{Exercise}[chapter]
+\newtheorem{act}{Activity}[chapter]
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{pro}{Proof}[chapter]
+\newtheorem{prop}{Proposition}[chapter]
+\theoremstyle{plain}
+\newtheorem{cor}{Corollary}[chapter]
+\newtheorem{lem}{Lemma}[chapter]
+\newtheorem{fig}{Figure}[chapter]
+\newtheorem{arr}{Array}[chapter]
+\newtheorem{exh}{Exhibit}[chapter]
+
+%
+\numberwithin{equation}{chapter}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%%% ----------------------------------------------------------------------
+%% ----------------------------------------------------------------------
+
+%\nobib
+%\draft
+%\nofront 
+%\permissionfalse
+%%%-----------------------------------------------------------------------
+
+\begin{document}
+	
+\title{RISK MODELLING WITH BIG DATA IN THE BANKING SECTOR}
+
+\begin{center}
+	\vfill
+	\includegraphics[width=4cm]{UZ_logo.jpg}
+\end{center}
+
+\author{CASPER MARINGE \\[1cm]{\small Supervisor: Mr. R. Moyo}}
+	
+	% The following degrees are included in the current dalthesis.cls
+	% class file:
+	\phd  % options are \mcs, \macs, \mec, \mhi, \phd, and bcshon
+	
+	% If you degree is not included, you can set several options manually.
+	% The following example shows the parameters for the \mcs degree.
+	% However, if you need to set these parameters manually, please check
+	% the correct names with the Faculty of Graduate Studies, and let the
+	% maintainer of this class file know (Vlado Keselj, vlado@cs.dal.ca).
+	% MCS Example:
+	
+	\degree{BSC HONOURS IN ACTUARIAL SCIENCE}
+	\degreeinitial{HASC}
+	\faculty{FACULTY OF SCIENCE}
+	\dept{MATHEMATICS AND COMPUTATIONAL SCIENCES}
+	
+	% Month and Year of Defence
+	\defencemonth{APRIL}\defenceyear{2023}
+	
+	\dedicate{ ...to my mother for the endless love}
+
+
+
+
+\frontmatter	
+
+\begin{abstract}
+Fraud is a major problem for the banking sector, costing billions of dollars each year. Traditional fraud detection methods are often ineffective, as fraudsters are constantly finding new ways to exploit vulnerabilities in banking systems.\\\\
+Big data offers a new approach to fraud detection. By collecting and analyzing large amounts of data, banks can identify patterns that are indicative of fraud. This information can then be used to develop models that can predict and prevent fraudulent transactions.\\\\
+This Research will explore the use of big data for fraud detection in the banking sector. It will begin by providing an overview of fraud and the challenges of detecting it. It will then discuss the use of big data for fraud detection, and the different models that have been developed. The dissertation will also discuss the challenges of implementing big data fraud detection solutions, and the future of this field.\\\\
+The dissertation concludes by arguing that big data is a powerful tool that can be used to detect fraud in the banking sector. It is important for banks to invest in big data fraud detection solutions, as they can help to protect their customers and their bottom line.
+\end{abstract}
+
+
+
+\printglossary
+
+
+\begin{acknowledgements}
+
+
+I am unable to quantify the immense grace bestowed upon me by our Lord Jesus Christ, who guided me through the four-year academic journey. I am appreciative of the strength and love that He demonstrated to me during this time.\\ \\
+I extend my sincere gratitude to the lecturers at the University of Zimbabwe, especially those from the Department of Mathematics and Computational Sciences, for their encouragement and assistance throughout my academic pursuit. Special thanks to my supervisor, Mr. Moyo, for his kindness and guidance throughout this research endeavor. I could not have accomplished this project without the support of my classmates, and I am grateful for their help throughout my journey.\\ \\
+Lastly, I want to express my heartfelt appreciation to my mother and siblings for their unwavering support. Their presence in my life serves as a pillar of strength in all aspects of my life.
+
+
+\end{acknowledgements}
+
+
+
+	
+	
+\mainmatter
+\pagestyle{plain}
+
+\include{Chapter_1}
+\include{Chapter_2}
+\include{Chapter_3}
+\include{Chapter_4}
+\include{Chapter_5}
+ %------------------------------------------------------------------------
+%\bibliographystyle{apalike}
+%\bibliographystyle{agsm}
+%\bibliography{Biblio}
+
+\include{Biblio}   % For Gather Purpose Only
+%\setlinespacing{1.44}
+%\bibliographystyle{amsplain}
+%-------------------------------------------------------------------------
+%\typeout{Appendix}
+\appendix
+\include{App}
+
+
+%-------------------------------------------------------------------------
+\end{document}
+% ------------------------------------------------------------------------

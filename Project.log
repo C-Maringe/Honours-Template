@@ -1,0 +1,861 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.19)  1 MAY 2023 00:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"C:/Users/Dell/Desktop/Honours Template/Project.tex"
+(C:/Users/Dell/Desktop/Honours Template/Project.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+(C:/Users/Dell/Desktop/Honours Template\dalthesis.cls
+Document Class: dalthesis 2012/11/13 v1.0 Dalhousie University thesis class
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:/Users/Dell/Desktop/Honours Template\afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks16
+\AP@partial=\box51
+\AP@footins=\box52
+)
+\dal@textheight@default=\skip50
+\dal@textheight@footer=\skip51
+\dal@tempdima=\dimen141
+\dal@tempdimb=\dimen142
+
+(C:/Users/Dell/Desktop/Honours Template\glossary.sty
+Package: glossary 2004/11/02 2.12 (NLCT)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\gls@cols=\count194
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count195
+\LTcapwidth=\dimen143
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count196
+\LT@rows=\count197
+\c@LT@tables=\count198
+\c@LT@chunks=\count199
+\LT@p@ftn=\toks18
+)
+\descriptionwidth=\skip56
+\istfile=\write3
+)
+\@glossaryfile=\write4
+\openout4 = `Project.glo'.
+
+
+Writing glossary file Project.glo 
+\dal@supervisornum=\count266
+\c@dal@signatures=\count267
+\c@dal@readernum=\count268
+) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+) (C:/Users/Dell/Desktop/Honours Template\emlines2.sty)
+(C:/Users/Dell/Desktop/Honours Template\bezier.sty
+\c@@sc=\count269
+\c@@scp=\count270
+\c@@t=\count271
+\@x=\skip57
+\@xa=\skip58
+\@xb=\skip59
+\@y=\skip60
+\@ya=\skip61
+\@yb=\skip62
+\@pt=\box58
+)
+(C:/Users/Dell/Desktop/Honours Template\latexsym.sty
+Package: latexsym 1996/11/20 v2.2d Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 85.
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:/Users/Dell/Desktop/Honours Template\bbb.sty
+\msbbfam=\mathgroup7
+\msbbfam=\mathgroup8
+)
+(C:/Users/Dell/Desktop/Honours Template\fanchead.sty
+\headrulewidth=\dimen146
+\footrulewidth=\dimen147
+\plainheadrulewidth=\dimen148
+\plainfootrulewidth=\dimen149
+\headwidth=\dimen150
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count272
+\float@exts=\toks20
+\float@box=\box59
+\@float@everytoks=\toks21
+\@floatcapt=\box60
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+)
+(C:/Users/Dell/Desktop/Honours Template\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen151
+))
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \tmspace on input line 145.
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box61
+\strutbox@=\box62
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
+\macc@depth=\count278
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip16
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks25
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks26
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks27
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
+\thm@preskip=\skip66
+\thm@postskip=\skip67
+\thm@headsep=\skip68
+\dth@everypar=\toks34
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\newlfont.sty
+Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
+LaTeX Info: Redefining \em on input line 57.
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.
+sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count285
+)
+\@linkdim=\dimen160
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
+ (C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count288
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count289
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen161
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count290
+\Field@Width=\dimen162
+\Fld@charsize=\dimen163
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip69
+) (C:/Users/Dell/Desktop/Honours Template\Tocinc.sty
+\tclineskip=\skip70
+)
+\c@key=\count296
+\c@rem=\count297
+\c@note=\count298
+\c@bul=\count299
+\c@defn=\count300
+\c@exa=\count301
+\c@ex=\count302
+\c@act=\count303
+\c@thm=\count304
+\c@pro=\count305
+\c@prop=\count306
+\c@cor=\count307
+\c@lem=\count308
+\c@fig=\count309
+\c@arr=\count310
+\c@exh=\count311
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count312
+\l__pdf_internal_box=\box63
+) (C:/Users/Dell/Desktop/Honours Template\Project.aux
+No file Chapter_1.aux.
+No file Chapter_2.aux.
+No file Chapter_3.aux.
+No file Chapter_4.aux.
+No file Chapter_5.aux.
+(C:/Users/Dell/Desktop/Honours Template\Biblio.aux)
+(C:/Users/Dell/Desktop/Honours Template\App.aux))
+\openout1 = `Project.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count313
+\scratchdimen=\dimen164
+\scratchbox=\box64
+\nofMPsegments=\count314
+\nofMParguments=\count315
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen165
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
+\everyMPtoPDFconversion=\toks36
+)
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 105.
+\@outlinefile=\write5
+\openout5 = `Project.out'.
+
+<UZ_logo.jpg, id=3, 722.7pt x 722.7pt>
+File: UZ_logo.jpg Graphic file (type jpg)
+<use UZ_logo.jpg>
+Package pdftex.def Info: UZ_logo.jpg  used on input line 111.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
+
+Unavoidable over/underfulls may occur in the first
+few pages of dalcsthesis. These can usually be ignored.
+However, if uncorrectable errors occur, notify staff.
+LaTeX Info: Redefining \\ on input line 140.
+[1
+
+\openout3 = `Project.ist'.
+
+{C:/Users/Dell/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <C:/Users/Dell
+/Desktop/Honours Template/UZ_logo.jpg>] [2
+
+]
+\c@ztocpageA=\count319
+\c@ztocpageB=\count320
+\@defbaselineskip=\skip71
+
+(C:/Users/Dell/Desktop/Honours Template\Project.toc
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 1.
+
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+
+(C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write6
+\openout6 = `Project.toc'.
+
+
+[3
+
+
+] (C:/Users/Dell/Desktop/Honours Template\Project.lot)
+\tf@lot=\write7
+\openout7 = `Project.lot'.
+
+ [4
+
+
+]
+(C:/Users/Dell/Desktop/Honours Template\Project.lof)
+\tf@lof=\write8
+\openout8 = `Project.lof'.
+
+ [5
+
+
+]
+\ab@page=\count321
+
+No file Project.gls.
+[6
+
+
+] [7
+
+]
+Dalthesis preface pages completed.
+\openout2 = `Chapter_1.aux'.
+
+(C:/Users/Dell/Desktop/Honours Template\Chapter_1.tex
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4] [5]) [6] [7]
+\openout2 = `Chapter_2.aux'.
+
+ (C:/Users/Dell/Desktop/Honours Template\Chapter_2.tex
+Chapter 2.
+[8
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [14]
+[15] [16] [17] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22] [23] [24] [25]
+Underfull \vbox (badness 2799) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+[29]) [30]
+\openout2 = `Chapter_3.aux'.
+
+ (C:/Users/Dell/Desktop/Honours Template\Chapter_3.tex
+Chapter 3.
+[31
+
+
+
+
+] [32] [33]
+Overfull \hbox (11.24342pt too wide) in paragraph at lines 80--81
+[]\OT1/cmr/m/n/12 Oversampling: This tech-nique in-volves in-ten-tion-ally over
+-representing cer-tain groups
+ []
+
+[34] [35] [36]
+Overfull \hbox (9.6115pt too wide) in paragraph at lines 133--134
+\OT1/cmr/m/n/12 with the in-put fea-tures and the cor-re-spond-ing class la-bel
+s (fraud-u-lent or non-fraudulent)
+ []
+
+[37] [38] [39]
+Overfull \hbox (3.35568pt too wide) in paragraph at lines 181--182
+\OT1/cmr/m/n/12 Bayes, SVM, Lo-gis-tic Re-gres-sion, and XG-Boost), I used k-fo
+ld cross-validation. Specif-
+ []
+
+[40]
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+ [41]
+[42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 4582) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45])
+[46]
+\openout2 = `Chapter_4.aux'.
+
+ (C:/Users/Dell/Desktop/Honours Template\Chapter_4.tex
+Chapter 4.
+[47
+
+
+
+
+]
+<image1.png, id=343, 1028.34187pt x 578.16pt>
+File: image1.png Graphic file (type png)
+<use image1.png>
+Package pdftex.def Info: image1.png  used on input line 17.
+(pdftex.def)             Requested size: 650.43001pt x 365.68953pt.
+
+Overfull \hbox (216.81pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+[48 <C:/Users/Dell/Desktop/Honours Template/image1.png>]
+<image7.png, id=350, 673.76718pt x 446.41782pt>
+File: image7.png Graphic file (type png)
+<use image7.png>
+Package pdftex.def Info: image7.png  used on input line 25.
+(pdftex.def)             Requested size: 433.62001pt x 287.30719pt.
+ [49 <C:/Users/Dell/Desktop/Honours Template/image7.png>]
+<image5.png, id=357, 672.26157pt x 323.70938pt>
+File: image5.png Graphic file (type png)
+<use image5.png>
+Package pdftex.def Info: image5.png  used on input line 38.
+(pdftex.def)             Requested size: 433.62001pt x 208.79836pt.
+ [50 <C:/Users/Dell/Desktop/Honours Template/image5.png>]
+<image6.png, id=364, 672.26157pt x 315.42844pt>
+File: image6.png Graphic file (type png)
+<use image6.png>
+Package pdftex.def Info: image6.png  used on input line 49.
+(pdftex.def)             Requested size: 433.62001pt x 203.45699pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+[51 <C:/Users/Dell/Desktop/Honours Template/image6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+<image8.png, id=372, 673.76718pt x 317.68687pt>
+File: image8.png Graphic file (type png)
+<use image8.png>
+Package pdftex.def Info: image8.png  used on input line 66.
+(pdftex.def)             Requested size: 433.62001pt x 204.45805pt.
+[52 <C:/Users/Dell/Desktop/Honours Template/image8.png>]
+<image3.png, id=379, 677.53125pt x 495.35063pt>
+File: image3.png Graphic file (type png)
+<use image3.png>
+Package pdftex.def Info: image3.png  used on input line 78.
+(pdftex.def)             Requested size: 433.62001pt x 317.03088pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--82
+
+ []
+
+[53 <C:/Users/Dell/Desktop/Honours Template/image3.png>]
+<image9.png, id=386, 674.52pt x 347.79938pt>
+File: image9.png Graphic file (type png)
+<use image9.png>
+Package pdftex.def Info: image9.png  used on input line 89.
+(pdftex.def)             Requested size: 433.62001pt x 223.58855pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54 <C:/Users/Dell/Desktop/Honours Template/image9.png>] [55] [56]
+<image11.png, id=407, 462.97969pt x 330.48468pt>
+File: image11.png Graphic file (type png)
+<use image11.png>
+Package pdftex.def Info: image11.png  used on input line 166.
+(pdftex.def)             Requested size: 216.81pt x 154.76303pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+<image12.png, id=408, 278.54062pt x 258.9675pt>
+File: image12.png Graphic file (type png)
+<use image12.png>
+Package pdftex.def Info: image12.png  used on input line 176.
+(pdftex.def)             Requested size: 216.81pt x 201.5789pt.
+[57 <C:/Users/Dell/Desktop/Honours Template/image11.png> <C:/Users/Dell/Desktop
+/Honours Template/image12.png>]
+<image13.png, id=417, 668.4975pt x 491.58656pt>
+File: image13.png Graphic file (type png)
+<use image13.png>
+Package pdftex.def Info: image13.png  used on input line 186.
+(pdftex.def)             Requested size: 433.62001pt x 318.8749pt.
+<image14.png, id=418, 675.27281pt x 292.84406pt>
+File: image14.png Graphic file (type png)
+<use image14.png>
+Package pdftex.def Info: image14.png  used on input line 195.
+(pdftex.def)             Requested size: 303.53267pt x 131.6356pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <C:/Users/Dell/Desktop/Honours Template/image13.png> <C:/Users/Dell/Deskto
+p/Honours Template/image14.png>]
+<image15.png, id=428, 366.61969pt x 237.88875pt>
+File: image15.png Graphic file (type png)
+<use image15.png>
+Package pdftex.def Info: image15.png  used on input line 213.
+(pdftex.def)             Requested size: 346.89732pt x 225.10368pt.
+ [59 <C:/Users/Dell/Desktop/Honours Template/image15.png>]
+<image16.png, id=436, 438.13687pt x 426.84468pt>
+File: image16.png Graphic file (type png)
+<use image16.png>
+Package pdftex.def Info: image16.png  used on input line 222.
+(pdftex.def)             Requested size: 346.89732pt x 337.95912pt.
+[60 <C:/Users/Dell/Desktop/Honours Template/image16.png>]
+<image17.png, id=444, 365.86688pt x 227.34938pt>
+File: image17.png Graphic file (type png)
+<use image17.png>
+Package pdftex.def Info: image17.png  used on input line 231.
+(pdftex.def)             Requested size: 346.89732pt x 215.5748pt.
+<image18.png, id=445, 361.35pt x 228.855pt>
+File: image18.png Graphic file (type png)
+<use image18.png>
+Package pdftex.def Info: image18.png  used on input line 239.
+(pdftex.def)             Requested size: 346.89732pt x 219.70178pt.
+ [61 <C:/Users/Dell/Desktop/Honours Template/image17.png> <C:/Users/Dell/Deskto
+p/Honours Template/image18.png>]
+<image19.png, id=454, 358.33875pt x 231.86626pt>
+File: image19.png Graphic file (type png)
+<use image19.png>
+Package pdftex.def Info: image19.png  used on input line 248.
+(pdftex.def)             Requested size: 346.89732pt x 224.47835pt.
+ [62 <C:/Users/Dell/Desktop/Honours Template/image19.png>]
+<image21.png, id=462, 282.30469pt x 188.95593pt>
+File: image21.png Graphic file (type png)
+<use image21.png>
+Package pdftex.def Info: image21.png  used on input line 266.
+(pdftex.def)             Requested size: 303.53267pt x 203.17844pt.
+<image22.png, id=463, 522.45187pt x 312.41719pt>
+File: image22.png Graphic file (type png)
+<use image22.png>
+Package pdftex.def Info: image22.png  used on input line 275.
+(pdftex.def)             Requested size: 303.53267pt x 181.50717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--284
+
+ []
+
+[63 <C:/Users/Dell/Desktop/Honours Template/image21.png> <C:/Users/Dell/Desktop
+/Honours Template/image22.png>]
+<image23.png, id=474, 1028.34187pt x 578.16pt>
+File: image23.png Graphic file (type png)
+<use image23.png>
+Package pdftex.def Info: image23.png  used on input line 287.
+(pdftex.def)             Requested size: 433.62001pt x 243.79596pt.
+ [64 <C:/Users/Dell/Desktop/Honours Template/image23.png>]) [65]
+\openout2 = `Chapter_5.aux'.
+
+ (C:/Users/Dell/Desktop/Honours Template\Chapter_5.tex
+Chapter 5.
+
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [66
+
+
+
+
+]
+[67]) [68]
+\openout2 = `Biblio.aux'.
+
+ (C:/Users/Dell/Desktop/Honours Template\Biblio.tex
+! pdfTeX error (ext1): \pdfendlink cannot be used in vertical mode.
+\close@pdflink ...\Hy@VerboseLinkStop \pdfendlink 
+                                                  
+l.10 \bibitem
+             {Lackovic} Lackovic, D., Ilic, M., \& Stanojevic, M. (2016). Bi...
+
+
+ 
+Here is how much of TeX's memory you used:
+ 11019 strings out of 476331
+ 174488 string characters out of 5788237
+ 1858660 words of memory out of 5000000
+ 31024 multiletter control sequences out of 15000+600000
+ 520118 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,10n,76p,732b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

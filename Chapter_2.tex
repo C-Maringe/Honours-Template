@@ -1,0 +1,581 @@
+
+\chapter{Literature Review}
+
+\section{Introduction}
+According to Hasnat (2018), Big Data was already present by the end of the 1990s, and its prevalence
+has significantly increased in the 21st century, making it an essential factor for modern businesses.
+In today's scenario, organizations worldwide are utilizing these vast and intricate datasets to uncover
+new and valuable insights, thereby enhancing their decision-making capabilities.\\\\
+Banks must effectively manage their risks due to strict regulations in the banking sector.
+While statistical models have traditionally been used for this purpose, banks are now utilizing big data
+analytics to enhance their risk management capabilities, thanks to the growth of data and computing power,
+(Julapa Jagtiani., et al 2018). In this literature review, we will examine the various risk modelling techniques
+that are used in the banking sector with a particular focus on the use of big data.
+
+
+\section{Risk Modelling in the Banking Sector}
+Risk modelling is the process of using statistical or mathematical techniques to estimate the probability and
+potential impact of various risks, such as financial losses or natural disasters. It allows organizations to
+identify and prioritize potential risks, and develop strategies to mitigate or manage them,
+(Saunders \& Allen, 2007). In the banking sector, risk modelling is used to quantify the risks associated with
+lending, investing, and trading activities. The most common types of risk models used in the banking sector
+are credit risk models, market risk models, and operational risk models.\\\\
+Monitoring key risk factors, such as financial and managerial indicators, is essential for the proper functioning
+and economic value creation of a business (Dicuonzo et al, 2019). The interconnectedness of business risks has
+led to a more global and systemic approach to enterprise risk management. This approach, known as ERM, involves
+integrated risk management through the analysis of business contingencies and the evaluation of uncertainty.
+It aims to ensure business continuity through organizational solutions that are recognized and shared by the
+entire company (Dicuonzo et al., 2019; Idris and Norlida, 2016; Navak and Akkiraju, 2012).\\\\
+International Organization for Standardization (ISO) and the Committee of Sponsoring Organizations of the Treadway
+Commission (CoSO) have made significant international contributions in the area of risk management by providing
+principles and operational techniques for a more systematic and disciplined approach at the operational level.
+By interacting adequate control systems with performance and business strategies, this approach can create,
+maintain, and realize value, thereby satisfying stakeholders' expectations for long-term sustainability,
+even under conditions of uncertainty. Increasingly, more companies are adopting the integrated risk management
+approach due to its competitive advantages, its ability to increase economic value, improve operational
+performance, reduce the risk of failure, and the recognition that managing risks in a structured way and
+based on well-defined principles is essential to create and protect the value of an organization 
+(Dicuonzo et al., 2019; Florio and Leoni, 2017;). The importance of managing risks based on well-defined 
+principles is emphasized in the ISO 31000:2018 standard.\\\\
+Due to the recent financial crisis and regulatory changes, new risk management models have emerged in the banking
+sector. These models emphasize a preventive approach to risk evaluation based on expected losses 
+(IFRS 9 - Financial Instruments) rather than only focusing on past losses (incurred loss). To accomplish this,
+banks now carefully monitor financial transactions, conduct stress tests and scenario analyses, and report risks
+in order to understand the different types of uncertainties they face (Hossein et al., 2018). Consequently,
+there is now a greater awareness of risk-taking and a more selective approach to it, with top management
+actively involved and communicating with supervisors.\\\\
+Banks must use all available data to predict, manage, and report risks. The quantity and quality of data are
+crucial for developing and implementing strategies that align with the risk appetite and establish effective
+processes to protect bank assets. This requires revising organizational models and prioritizing technology for
+automation, integration, and managing large volumes of data. Advanced analytics systems can extract valuable
+information from irregular data to support organizational management and processes (Dicuonzo et al., 2019).\\\\
+Research by Deutsche Bank (2015) and McKinsey and Company (2015) revealed that the increase in banking tools and
+transactions, the growing volume of data, the innovative use of risk management techniques, and the emergence of
+new risk typologies, along with more stringent regulations, have significantly impacted the information and 
+technological infrastructure (Lackovic et al., 2016). To create value, banks must integrate data from various
+channels, including traditional counters, internet and mobile banking, ATMs, ASDs/ASSDs, credit circuits, and
+e-commerce platforms, with unstructured data from social networks and the web, using a data lake platform.
+This platform enables storage, organization, management, and operational exploitation of large volumes of data
+to gain insights into customer consumption habits and risk profiles, detect fraud
+(Banarescu, 2015; Chen et al., 2015), streamline processes and products, and optimize decision-making for
+credit risks, compliance analysis, contract management, and complaint management.\\\\
+The idea that swift identification and quantification of new risks and transparency in reporting activities are
+crucial to effective risk management is widely supported by authors such as Elgendy and Elragal (2014) and
+Lackovic et al. (2016). This involves integrating both traditional and unstructured data from various internal and
+external sources, such as Word, Excel, PowerPoint, images, e-mails, and information from the internet, through
+advanced technological tools and data-intensive techniques to build a shared platform known as the BDA. These
+advanced tools include data sourcing, processing and retention, analytics and reporting, management, and
+governance and control tools that ensure data accuracy, consistency, accessibility, and usability in compliance
+with organizational standards, property, and responsibility (Krishna, 2016).\\\\
+Lackovic et al. (2016) proposed a framework that advocates for the utilization of Big Data in all four crucial
+risk management activities, namely identification, assessment, management and control, and reporting.\\\\
+\textbf{The framework can be summarized as follows:}
+
+\begin{enumerate}
+    \item Risk identification: The early detection of risks and comprehensive understanding of customers requires
+     the identification of novel sources of information.
+    \item Risk assessment: The process involves analysing underlying data by calculating a range of risk indicators,
+     conducting real-time simulations based on these indicators, and using predictive analysis to assess all types
+      of risk.
+    \item Risk management and control: The activities include managing reputational risk, forecasting operational
+     losses, managing compliance, and controlling financial risk in real-time.
+    \item Reporting: The process involves generating reports in real-time, calculating risk exposure upon request,
+     improving transparency, and conducting real-time stress tests.\\
+\end{enumerate}
+In today's competitive landscape, utilizing business intelligence and Big Data tools has become increasingly
+essential for effective strategic management. The development of programming languages and statistical techniques
+has enabled organizations to harness the predictive power of data analysis and leverage their knowledge assets
+in a strategic manner across all levels of the organization. However, achieving such innovation requires more
+than just building advanced digital platforms that can process and analyse data; it also requires a cultural
+shift that involves bringing in new resources with expertise in mathematics, statistics, and the latest
+technological innovations needed to process large volumes of data quickly and extract valuable insights
+(Edwards and Taborda, 2016).
+
+\subsection{Credit Risk Models}
+The evaluation of borrowers' creditworthiness and the estimation of the likelihood of default is carried out 
+through the use of credit risk models. Conventional credit risk models rely on analysing financial statements
+and credit bureau data. However, due to the abundance of big data, banks are increasingly turning to non-traditional
+data sources such as social media activity, mobile phone usage data, and transactional data to enhance their
+credit risk models.\\\\
+Assessing credit risk continues to be a challenging and important area of research in the field of finance, with
+the initial efforts dating back to the last century. In light of the global financial crisis and subsequent
+increased regulatory focus, there has been a surge of interest in the credit risk assessment process from both
+academic and business communities. The typical approach to credit risk assessment involves applying a
+classification technique to historical customer data, including delinquent customers, to examine and
+evaluate the relationship between customer characteristics and their potential for failure. The results can
+be used to create classifiers for identifying new applicants or existing customers as either good or bad
+(Wang et al., 2005).\\\\
+Credit risk evaluation is a crucial aspect of risk management. Logistic regression and discriminant analysis are
+traditional techniques used in credit scoring to determine the likelihood of default. Support Vector Machines
+(SVM) have also shown success in classifying credit card customers who default and are competitive in identifying
+the most significant features that determine the risk of default. In comparison to traditional techniques,
+classifier algorithms have been found to perform significantly better in credit scoring. The calculation of
+credit loss exposure involves estimating the Probability of Default (PD), Exposure at Default (EAD), and Loss
+Given Default (LGD), which is emphasized in the Basel II accord. The most prevalent methods for developing PD
+models are classification and survival analysis. The latter estimates whether the customer will default and
+when the default is likely to occur. Advanced methods, such as artificial neural networks, have been found
+to perform better than extreme learning machine on credit scoring datasets (Lessmann et al., 2015).\\\\
+The Basel accord requirements have driven financial institutions to create credit scoring models to assess the
+default risk of their customers and allocate capital efficiently. SVM has been shown to produce better results in
+credit scoring compared to other methods (Van Gestel et al., 2003). Estimating the probability of default provides
+more value to risk management than a simple binary classification of customers as credible or not credible.
+Several techniques are used in credit scoring, such as discriminant analysis, logistic regression, Bayes
+classifier, nearest neighbour, artificial neural networks, and classification trees. Artificial neural networks
+have been found to be more accurate than the other methods (Yeh and Lien, 2009). Methods and models are
+continually being developed to address the challenge of correctly classifying customers and estimating credit
+risk to grow and profit from the loan portfolio. Neural networks have proven to be valuable in the credit
+risk decision-making process, and they have also been beneficial in predicting company distress in credit
+risk evaluation (Wójcicka, 2017). Although credit risk is the most studied area for machine learning
+application, it is not a new phenomenon. As early as 1994, Altman and colleagues conducted an analysis
+comparing traditional statistical methods with alternative neural network algorithms for distress and
+bankruptcy prediction and found that a combination of the two methods significantly improved accuracy
+(Aziz and Dowling, 2018). Hand and Henley (1997) defined credit scoring as formal statistical methods
+used to classify credit applicants into good and bad risk categories.\\\\
+Credit scoring models utilize multivariate statistical techniques to analyse economic and financial indicators in
+order to predict the likelihood of default by individuals or companies. The importance of each indicator is
+determined through assigning relative weights and the resulting creditworthiness index is used to generate a
+numerical score. This score is a measure of the borrower's probability of default. Among the various techniques
+used for credit risk evaluation, the support vector machine (SVM) technique has been found to be the most
+commonly used. Hybrid SVM models have been proposed to enhance performance by incorporating methods for
+reducing the feature subset. However, it is important to note that these models only classify and do not
+provide an estimation of the probability of default (Keramati and Yousefi 2011).\\\\
+According to Wang et al. (2005), a new method called "fuzzy support vector machine" is proposed to discriminate
+good creditors from bad ones by focusing on generalization while maintaining the fuzzy SVM's ability to be robust
+to outliers. The authors present a bilateral weighted fuzzy SVM and report promising results for its application
+in credit analysis. In another study, Huang et al. (2007) developed a credit scoring model for evaluating an
+applicant's credit score based on input features using a hybrid SVM constructed through three different
+strategies.\\\\
+Banks aim to create effective models for evaluating the probability of defaults by counterparties.
+Barboza et al. (2017) found that machine learning models were able to predict bankruptcy one year in advance with
+significant accuracy and outperformed traditional methods. Despite concerns about the model’s ability to explain
+its predictions due to the complexity of bankruptcy models, machine learning could be a valuable tool.
+Yang et al. (2011) proposed a new method for predicting bankruptcy that combines partial least squares-based
+feature selection with SVM for information fusion. This model could benefit banks by identifying the most
+relevant financial indicators for prediction and providing a high level of accuracy.\\\\
+According to Martin Leo et al (2019), the most extensively studied algorithms in the field of credit risk management
+are Neural Networks, Support Vector Models, and Random Forest.
+
+
+\subsection{Market Risk Models}
+Adam Hayes (2023) defines market risk as the possibility of financial market investments experiencing losses due 
+to factors that affect their overall performance. Traditional market risk models rely on historical data and 
+statistical analysis, but advancements in big data technology have allowed banks to use machine learning 
+algorithms to scrutinize vast data sets, detect trends, and make predictions. Market risk, also called 
+systematic risk, affects the whole market and cannot be mitigated through diversification, while specific 
+risk, or unsystematic risk, pertains to the performance of individual securities and can be diminished 
+through diversification. Factors such as interest rate fluctuations, exchange rate fluctuations, geopolitical 
+events, and economic downturns can give rise to market risk.
+
+\subsubsection{Understanding Market Risk}
+
+Mayo (2020) categorizes investment risk into two primary types: market risk and specific risk. Market risk, 
+also referred to as systematic risk, cannot be eliminated through diversification but can be mitigated using 
+other methods. This type of risk arises from various factors, such as political instability, recessions, natural 
+disasters, changes in interest rates, and terrorist attacks. Moreover, it usually affects the whole market 
+simultaneously. In contrast, specific risk, also called unsystematic, non-systematic, diversifiable, or residual 
+risk, is unique to individual companies or industries and can be decreased through diversification within an 
+investment portfolio. Market risk, which stems from fluctuations in prices, gives rise to investment risk.
+
+\subsubsection{Measuring Market Risk}
+
+Investors and analysts often employ the value-at-risk (VaR) method to evaluate market risk. This statistical 
+approach estimates the potential loss of a stock or portfolio and the probability of that loss occurring. 
+However, the accuracy of VaR modelling, despite its widespread use, is dependent on certain assumptions. 
+For example, the method assumes that the portfolio being analyzed remains unchanged over a specific period, 
+which may be valid for short-term projections but less precise for long-term investments.
+
+\subsubsection{Value at Risk (VaR)}
+
+VaR is a statistical measure that calculates the maximum potential loss a portfolio could experience
+over a given time period at a certain level of confidence. So, a VaR of 95\% suggests that there is a 95\%
+chance that the portfolio would not lose more than the calculated amount over the given time period.
+\begin{itemize}
+    \item[$\bullet$]	The approach to calculating VaR using historical data involves sorting past returns from 
+    worst losses to greatest gains. This method follows the premise that past returns experience will inform 
+    future outcomes, as stated by Will Kenton in 2022."
+    \item[$\bullet$]	The variance-covariance method, also known as the parametric method, assumes that gains and 
+    losses are normally distributed and does not rely on historical data. Instead, potential losses are expressed 
+    in terms of the number of standard deviations from the mean. This information was presented 
+    by THE INVESTOPEDIA TEAM in 2021.
+    \item[$\bullet$]	Monte Carlo simulation is a method of estimating VaR that involves using computational 
+    models to simulate potential returns over many iterations. This technique can simulate hundreds or even 
+    thousands of potential outcomes and estimate the likelihood of a loss occurring. For example, it could 
+    estimate the maximum loss that could occur 5\% of the time. This information was presented by Will Kenton in 2023.\\
+\end{itemize}
+Market risk modeling is an important tool for managing investment risk. It involves the use of various models to 
+calculate the potential losses that a portfolio may experience due to changes in market prices. These models can 
+assess the potential impact of different types of market risks, such as interest rate, equity, currency, and 
+commodity risks, and estimate the likelihood of such losses occurring.\\\\
+Managing market risk is heavily dependent on these models, which are simplified representations of real-world 
+financial markets. By capturing key factors that influence prices and sensitivities, financial models provide 
+essential information for managing investment risk. However, it's important to note that these models are not 
+perfect and rely on various assumptions and simplifications. Therefore, it's crucial to continually monitor and 
+update these models to ensure their accuracy and relevance.
+
+
+\subsection{Operational Risk Models}
+
+Troy Segal (2023) states that operational risks can stem from four primary sources: people, processes, systems, 
+and external events.
+\begin{enumerate}
+    \item Instead of focusing on products or inherent factors within an industry, operational risk centers on the 
+    methods and choices made by an organization, according to Troy Segal's research (2023).
+
+    \item Operational risk arises from four main sources: people, processes, systems, and external events, as per 
+    Troy Segal (2023). However, companies should aim to reduce the risk in each of these categories while 
+    acknowledging that some level of operational risk is unavoidable.
+
+    \item Risks associated with people can stem from inadequate staffing levels or a lack of employee competence, 
+    as per Troy Segal's (2023) research. Companies may need to hire additional staff to mitigate these risks, which 
+    could introduce new risks such as employee retention.
+
+    \item Each company has its own unique set of processes, which must be followed to avoid negative consequences, 
+    as Troy Segal (2023) notes. However, some processes may be vulnerable to exploitation, while others may be 
+    inadequately documented, particularly in companies with high employee turnover.
+
+    \item Operational risks may arise from outdated, inadequate, or improperly configured systems, and performance 
+    concerns, as per Troy Segal's research (2023). Technical issues like bugs or vulnerabilities to cybercrime are 
+    also operational risks, as are capacity limitations that arise when companies overload their systems with 
+    excessive demands.
+
+    \item External events beyond a company's control, such as natural disasters or political changes, can result in 
+    operational risks, according to Troy Segal's research (2023). Some of these risks may be classified separately, 
+    while others are simply inherent to doing business, such as a third-party defaulting on a contract.
+
+    \item When analyzing potential investment opportunities, it is essential to consider operational risk, which 
+    can vary significantly across industries, as per Troy Segal's research (2023). Industries with less human 
+    interaction typically have lower operational risks than those with more human interaction.\\
+\end{enumerate}
+\textbf{According to the research conducted by Troy Segal in 2023, the main causes of operational risk can be further categorized into seven primary categories. These categories are not listed in any particular order and include:}
+
+\begin{enumerate}
+    \item Internal fraud - this occurs when employees collude to bypass internal controls and take advantage of 
+    company resources for personal gain.
+
+    \item External fraud - when external parties attempt to engage in illegal activities such as bribery, theft, 
+    forgery, or cyberattacks against the company.
+
+    \item Technology failures - this happens when there are shortcomings in computer systems, software, hardware, 
+    or their interactions.
+
+    \item Process execution - when management fails to properly assess a situation and implement the right strategy 
+    or fails to execute a correct strategy.
+
+    \item Safety - this occurs when there is a violation or risk of violation of workplace safety measures, whether 
+    physical, mental, or other.
+
+    \item Natural disasters - when events such as severe weather, fire, or harsh winter conditions put physical 
+    assets at risk and prevent employees from performing their duties.
+
+    \item Business practices - this occurs when operational activities harm customers, provide misleading 
+    information, exhibit negligence, or fail to comply with requirements.
+\end{enumerate}
+
+\section{Challenges of Traditional Risk Modelling}
+Traditional risk modeling methods tend to underestimate the likelihood of significant market declines, which can 
+lead to inaccurate risk forecasting. An alternative approach, introduced by Benoit Mandelbrot in the 1960s, uses 
+log-stable distributions to assign more realistic probabilities to large market changes.\\\\
+In addition to this, traditional risk modeling faces other challenges, such as the difficulty of obtaining relevant 
+data and ensuring that decision-makers are comfortable with the models and their assumptions. As banks increasingly 
+use models for decision-making, the number of models is also growing rapidly. To meet higher performance standards, 
+more advanced analytics techniques, such as machine learning, are being used to develop more sophisticated models.\\\\
+However, traditional risk modeling techniques may not be sufficient to capture the complexity of modern financial 
+systems. These models often rely on historical data and assume a stable future, which may not hold true given the 
+constant changes in conditions and variables. As a result, models may be based on outdated assumptions and 
+parameters that do not account for recent events, such as COVID-19, or the lack of high-frequency data for 
+recalibration. Short implementation timelines, limited access to alternative data sources, and the absence of an 
+agile operating model have further impeded efforts to address these issues.
+
+\section{Big Data Analytics}
+
+Big Data refers to extremely large datasets that cannot be managed using traditional database management systems due
+to their size and complexity, which exceed the capabilities of commonly used software tools and storage systems
+(Hasnat, 2018). Big Data typically consists of vast amounts of structured and unstructured data with complex
+structures, generated and stored at high speeds (Sagiroglu and Sinanc, 2013; Srivastava and Gopalkrishnan, 2015).
+Some define Big Data as having high volume, velocity, and variety, requiring innovative and cost-effective
+information processing methods to enhance understanding and decision-making. Others view Big Data not only
+as the data itself but also as the technologies used to manage and extract value from it in an efficient
+and effective manner (Lackovic et al., 2016).\\\\
+Big Data is characterized by three main features, known as the 3Vs: Volume, Velocity, Variety, Value and Veracity
+(Ozkose et al., 2015; Sagiroglu and Sinanc, 2013). Volume refers to the size of the dataset, regardless of its
+importance. Velocity refers to the rate at which data is generated, processed, and analyzed. Variety refers to
+the different types of data sources and the data itself, which can be structured, unstructured, or semi-structured
+and can come from both internal and external sources. Value the ability to turn data into useful insights.
+Veracity trustworthiness in terms of quality and accuracy. Some researchers also include two additional
+characteristics: Variability, which refers to the periodicity or irregularity of the data
+(Elgendy and Elragal, 2014), and Veracity, which refers to the accuracy of the data, which may be good, bad,
+or undefined (Gandomi and Haider, 2015; IBM, 2014). Some authors also identify a sixth characteristic,
+Value, which refers to the potential value of the data (Choi et al., 2017; Ozkose et al., 2015).\\\\
+In 2015, the United Nations Department of Economic and Social Affairs categorized Big Data into three groups based
+on their sources: data from social networks, which includes information from social media, online messages, and
+internet searches; data from traditional business systems, such as that generated by commercial transactions,
+e-commerce, credit cards, and medical records; and data from the Internet of Things (IoT), which refers
+to machine-generated data, such as weather and pollution data, GPS satellite data, and computer-based records
+(Hasnat, 2018).\\\\
+The process of extracting information from Big Data involves two stages: data management and analytics
+(Gandomi and Haider, 2015; Krishna, 2016). Data management involves acquiring, storing, selecting, and
+representing data. Analytics involves analyzing and interpreting the data. Data is first extracted from
+external sources using information system tools, then transformed and loaded into advanced databases or
+data warehouses. The data is then cleaned and classified before being made available for data mining and
+other forms of analysis. Finally, it is processed using Big Data Analytics (BDA) tools to make it useful
+for decision-making (Munesh and Mittal, 2014).\\\\
+Big Data Analytics (BDA) is defined in this literature as the use of algorithms to analyze large datasets and
+extract patterns, reports, and useful, previously unknown information (Elgendy and Elragal, 2014).
+BDA is used to identify significant relationships between variables and uncover hidden insights in large datasets,
+providing a competitive advantage. Some authors view BDA as a tool for generating insights that can inform
+decision-making, assess business performance, establish competitive advantages, and increase enterprise value
+(Saggi and Jain, 2018).\\\\
+Common software lacks the capacity to store, manage and analyze large and varied data sets. Traditional databases
+and data warehouses are inadequate in addressing the issues of data selection, adaptability and usability - all
+crucial for utilizing Big Data to improve decision-making and increase business value. The rapid advancement of
+technology and exponential growth in data availability necessitated the development of faster and more efficient
+tools for data preservation and analysis (Elgendy and Elragal, 2014). This led to the creation of advanced Big
+Data Analytics (BDA) tools such as NoSQL, BigQuery, Map Reduce, Hadoop, Flume, Mahout, Spark, WibiData and
+Skytree (Saggi and Jain, 2018). These tools can quickly collect and analyze large and varied data to uncover
+hidden patterns, unknown correlations, market trends, customer preferences and other useful information.\\\\
+The analytics market is one of the fastest-growing in IT due to the significant investments businesses are making
+in Big Data Analytics (BDA) tools. However, only recently has empirical evidence emerged of a positive impact on
+the performance of companies that have adopted these tools (Muller et al., 2018). According to research by TDWI,
+a leading business intelligence company, the use of BDA tools has resulted in improved understanding of business
+changes, better identification of market opportunities, more targeted marketing, automated decision-making
+processes, more accurate risk quantification and better planning and forecasting. The same study, based on
+surveys of BDA users, found that the main challenges in using these tools are related to inadequate existing
+infrastructure, high implementation or adjustment costs and a lack of skills and specific knowledge
+(Sagiroglu and Sinanc, 2013).\\\\
+A 2011 study by Manyika et al. highlights the significant benefits of using Big Data Analytics (BDA) tools in areas
+such as customer intelligence, supply chain intelligence, performance analysis, quality management, risk management
+and fraud detection (Ravisankar et al., 2011). Other researchers have noted that industries such as manufacturing,
+retail, central administration, healthcare, telecommunications and banking stand to gain the most from the use of
+Big Data.\\\\
+While there are still relatively few studies on the use of Big Data in the banking sector, interest from researchers
+and industry experts has grown in recent years. Many studies have shown a positive correlation between the adoption
+of technological innovations, including Big Data-based technologies, and increased productivity in the banking
+industry. In fact, banks that use Big Data Analytics (BDA) have a 4\% market share advantage over those that do
+not (Hossein et al., 2018).\\\\
+According to many researchers, Big Data technologies can be applied in various areas of the banking industry,
+including retail banking (e.g. bank collections, credit cards, private banking), commercial banking
+(e.g. credit risk analysis, customer and sales management, middle market loans), capital markets
+(e.g. trading and sales, structured finance) and asset management (e.g. wealth management, capital investment
+management, global asset reporting, investment deposit analysis) (Lackovic et al., 2016; Mohamad et al., 2015).\\\\
+Most research indicates that the primary applications of Big Data in the banking industry are in the areas of
+customer relationship management (CRM), fraud detection and prevention, and risk management and investment
+banking (Hossein et al., 2018; Kathuria, 2016; Radmehr and Bazmara, 2017; Srivastava and Gopalkrishnan, 2015).
+In the next section, we will examine the use of Big Data Analytics (BDA) in risk management to better understand
+the value of these data storage, interpretation and management tools.
+
+
+\section{Big data techniques used for risk modelling}
+
+\subsection{Machine learning algorithms}
+
+Machine learning algorithms, such as random forests, support vector machines, and neural networks, K-nearest 
+neighbours can be used to analyse big data sets and identify patterns in the data that are indicative of risk. 
+These algorithms can help predict the likelihood of future events based on past data and can help identify 
+potential risks.
+
+\subsubsection{Random Forests}
+Random forests are a machine learning technique that combines multiple decision trees to make predictions for 
+classification, regression, and other tasks. The technique was first introduced by Tin Kam Ho in 1995 using the 
+random subspace method, which implements the "stochastic discrimination" approach to classification. Leo Breiman 
+and Adele Cutler later extended the algorithm by combining the "bagging" idea with random selection of features to 
+construct a collection of decision trees with controlled variance.\\\\
+In random forests, the output for classification tasks is determined by the class selected by most trees, and for 
+regression tasks, the average prediction of the individual trees is returned. These models are frequently used as 
+black box models in businesses because they can make reasonable predictions across a wide range of data with minimal 
+configuration (Breiman, 2001).
+
+\subsubsection{Support Vector machines}
+
+Supervised learning models are a type of algorithm that analyzes data and provides insights on classification and 
+regression analysis by using related learning algorithms. Support vector machines (SVMs) are one of the most 
+reliable prediction methods for classification and regression analysis, according to various researchers, such as 
+Boser et al. (1992), Guyon et al. (1993), Cortes and Vapnik (1995), and Vapnik et al. (1997). SVMs were initially 
+developed by Vladimir Vapnik and his colleagues at AT\&T Bell Laboratories, based on statistical learning frameworks 
+or VC theory proposed by Vapnik (1982, 1995) and Chervonenkis (1974). SVMs are binary linear classifiers that 
+construct a model from a set of training examples by categorizing them into two groups.\\\\
+SVMs can also perform a non-linear classification using the kernel trick, which maps inputs into high-dimensional 
+feature spaces implicitly. Besides, SVMs can be used for probabilistic classification by applying methods like 
+Platt scaling. The algorithm analyzes the training examples and maps them into space, maximizing the gap width 
+between the two categories. SVMs then map new examples into that same space and predict their belonging to a 
+category based on which side of the gap they fall.\\\\
+Furthermore, SVMs can also perform non-linear classification using the kernel trick. This method maps inputs 
+into high-dimensional feature spaces implicitly.\\\\
+Support vector clustering (SVC) is another algorithm that uses support vectors' statistics to categorize unlabelled 
+data, as proposed by Siegelmann and Vapnik. SVC is based on unsupervised learning methods that attempt to find 
+natural clustering of the data into groups and map new data accordingly.
+\subsubsection{Neural networks}
+Neural networks, also known as neural nets, are computing systems that imitate the biological neural networks 
+found in animal brains (Hardesty \& Larry., 2017; Yang, Z., 2014). An artificial neural network (ANN) is made up 
+of a collection of interconnected units or nodes, which are similar to the neurons in a biological brain. These 
+artificial neurons can receive signals, process them, and then transmit signals to other connected neurons. The 
+connections between neurons, called edges, can transmit a real number as a signal.\\\\
+The output of each neuron is calculated by using a non-linear function based on the sum of its inputs. The neurons 
+and edges have weights that can be adjusted during the learning process. These weights can increase or decrease 
+the signal's strength at a connection, and the neurons may have a threshold to determine whether to send a signal 
+or not.\\\\
+The neurons are usually organized into layers, where each layer performs a different transformation on the inputs. 
+The signals typically flow from the first layer (the input layer) to the last layer (the output layer), and they 
+may traverse the layers multiple times.
+
+\subsubsection{K-nearest neighbors}
+
+The k-nearest neighbors algorithm (k-NN) is a type of machine learning technique that was first introduced in 1951 
+by Evelyn Fix and Joseph Hodges. This method is used for supervised learning, which means it learns from labeled 
+data. It can be applied to both classification and regression problems, where the input data includes the k closest 
+training examples in a dataset.\\\\
+In k-NN classification, the algorithm determines the class of an object by looking at the most frequently occurring 
+class among its k nearest neighbors. In k-NN regression, the algorithm calculates the average value of the k nearest 
+neighbors to predict the output.\\\\
+Since k-NN classification relies on distance, it's essential to normalize the data to improve accuracy, especially 
+when the features have different physical units or scales.  Assigning weights to the neighbors' contributions can 
+also be helpful, where closer neighbors have a more significant impact than the distant ones.\\\\
+The neighbors are selected from a set of labeled objects in the training dataset, which serves as the reference for 
+the algorithm. Unlike other supervised learning methods, k-NN doesn't require an explicit training step.
+
+\subsection{Natural Language Processing (NLP)}
+
+The development of NLP can be traced back to the early days of artificial intelligence, when researchers began to 
+explore the possibility of computers understanding and processing human language. One of the first major advances 
+in NLP was the development of the parser, which is a program that can break down a sentence into its component 
+parts, such as words, phrases, and clauses. The parser was developed in the early 1960s by researchers at MIT, 
+including Joseph Weizenbaum and Marvin Minsky, Jurafsky, D., \& Martin, J. H. (2008).\\\\
+Another major advance in NLP was the development of the statistical language model, which is a mathematical model 
+that can be used to predict the probability of a word or phrase appearing in a given context. Statistical language 
+models were developed in the 1970s by researchers at Stanford University, including Dan Jurafsky and James H. Martin.\\\\
+In recent years, there have been major advances in NLP, thanks to the availability of large amounts of data and the 
+development of powerful computing resources. These advances have led to the development of new NLP applications, 
+such as machine translation, text summarization, and question answering.\\\\
+NLP can be used to analyse unstructured data, such as text data from social media, news articles, and customer
+reviews, to identify patterns and trends that are relevant to risk. For example, sentiment analysis can be used
+to assess the sentiment of social media posts and identify potential risks based on the sentiment of the posts.
+
+\subsection{Data Visualization}
+Data visualization is the graphical representation of data. It is a powerful tool that can be used to communicate 
+complex information in a way that is easy to understand. Data visualization can be used to explore data, identify 
+patterns, and communicate findings, Cleveland, W. S. (1993).\\\\
+There are many different types of data visualization, including charts, graphs, maps, and infographics. The type of 
+data visualization that is most appropriate for a particular task will depend on the type of data, the audience, and 
+the desired outcome.\\\\
+Data visualization can be used in big data risk modeling to help identify and assess risks. By visualizing data, it 
+is possible to see patterns and trends that would not be obvious from looking at the data in tabular form. This can 
+help to identify areas of potential risk and to develop strategies for mitigating those risks.\\\\
+\textbf{Here are some examples of how data visualization can be used in big data risk modeling:}
+\begin{itemize}
+\item Identifying trends: Data visualization can be used to identify trends in data. For example, a financial institution could use data visualization to identify trends in customer spending. This information could then be used to develop strategies for managing risk, such as setting limits on spending or offering financial counseling to customers who are struggling with debt.
+\item Identifying outliers: Data visualization can be used to identify outliers in data. Outliers are data points that are significantly different from the rest of the data. Outliers can be a sign of a problem, such as fraud or a data entry error. By identifying outliers, it is possible to take corrective action before the problem gets worse.
+\item Communicating findings: Data visualization can be used to communicate findings to stakeholders. For example, a healthcare organization could use data visualization to communicate the results of a study on the effectiveness of a new drug. This information could then be used to make decisions about whether or not to adopt the drug.
+\end{itemize}
+
+\subsubsection{Heat maps}
+A heatmap is a graphical representation of data where individual values are represented by different colours. The
+colours in a heatmap typically range from cool to warm to represent the range of values in the data. Heatmaps are
+often used to visualize complex data sets and can help identify patterns and trends in the data.
+
+\subsubsection{Scatter plots}
+Its a way of displaying data that uses dots to show the relationship between two variables.
+The position of each dot on the horizontal and vertical axis represents the values of the two variables. Scatter
+plots are often used to visualize the relationship between two variables and can help identify trends and patterns
+in the data. They are particularly useful for identifying correlations and outliers in the data.
+
+\subsection{Big data infrastructure}
+
+big data infrastructure, such as Hadoop and Spark, can be used to store and process large volumes of data. These
+platforms can help organizations analyse large data sets and identify risks in real-time.
+
+\subsubsection{Hadoop}
+An open-source framework for storing data and running applications on clusters of commodity hardware,
+is comprised of two main components:
+
+\subsection{Predictive analytics}
+It is a type of analytics that utilises historical data as input to predict future outcomes. It can 
+be used to identify risks, make decisions, and improve performance.\\
+There are many different types of predictive analytics models, each with its own strengths and weaknesses. 
+Some of the most common types of predictive analytics models include:
+\begin{itemize}
+    \item Linear regression: Linear regression is a simple but powerful predictive analytics model that can be used to 
+predict continuous values, such as sales or revenue.
+
+\item Logistic regression: Logistic regression is a type of regression that is used to predict categorical values, such 
+as whether or not a customer will churn.
+
+\item Decision trees: Decision trees are a type of predictive analytics model that can be used to predict both continuous 
+and categorical values. They are easy to understand and interpret, but they can be difficult to build and tune.
+
+\item Support vector machines: Support vector machines are a type of predictive analytics model that is used to predict 
+both continuous and categorical values. They are very powerful, but they can be difficult to understand and 
+interpret.
+
+\item Neural networks: are a type of predictive analytics model that is inspired by the human brain. They 
+are very powerful, but they can be difficult to build and train.\\
+\end{itemize}
+Predictive analytics can be used in big data risk modeling to help identify and assess risks. By using historical 
+data to predict future outcomes, it is possible to identify areas of potential risk and to develop strategies for 
+mitigating those risks.\\\\
+For example, a financial institution could use predictive analytics to predict which customers are at risk of 
+defaulting on their loans. This information could then be used to develop strategies for managing risk, such as 
+offering financial counseling to customers who are struggling to make their payments.\\\\
+Predictive analytics can also be used to improve performance. For example, a retailer could use predictive analytics 
+to predict which products are likely to be in high demand. This information could then be used to allocate inventory 
+more efficiently and to improve customer service.
+
+\section{Other Studies}
+Machine learning is a valuable tool for detecting and preventing operational risk, particularly in fraud detection, 
+suspicious transactions, and cybersecurity. Khrestina et al. (2017) presented a prototype for generating reports 
+that detect suspicious transactions using a logistic regression algorithm. They also surveyed six software 
+solutions used by banks to monitor and detect suspicious transactions, although they did not investigate the 
+algorithms used in these products.\\\\
+Machine learning-based systems have proven useful in defending against spammer techniques, which can cause 
+productivity loss, communication disruption, malware attacks, and data theft. For example, Proofpoint's MLX 
+technology uses advanced machine learning to detect and protect against new spam threats.\\\\
+In money laundering, criminals conceal the true source of funds by routing them through multiple transactions and 
+layering them with legitimate transactions. Traditional statistical methods and machine learning techniques can 
+detect financial crimes, with clustering algorithms identifying customers with similar behavior patterns and 
+flagging any unusual activities for further investigation.\\\\
+Detecting and preventing money laundering and credit card fraud are significant challenges for financial 
+institutions. Research has focused on developing statistical learning and data mining methods to create 
+classification models that can flag suspicious transactions. For example, a C5.0 algorithm was used to 
+achieve a 99.6\% correct classification rate on test data for predicting risk levels and cluster allocation. 
+Banks have implemented fraud detection systems to manage the increasing risk and minimize losses.\\\\
+These systems try to guess the chance of something being fraud in a specific transaction by using methods 
+that are either supervised or unsupervised. They use different algorithms such as Bayesian, K-Nearest Neighbour, 
+Support Vector Machines, and bagging ensemble classifiers based on decision trees to help detect fraud. However, 
+sometimes these systems make mistakes and cause problems for customers, even though there isn't actually fraud. 
+Big Canadian banks use neural network scores a lot, but it's been proven that a meta-classifier can save them money 
+after using the neural network.
+
+\section{Challenges and Limitations of Big Data Analytics:}
+\subsection{Privacy and Security Concerns}
+
+Privacy and security concerns are among the significant drawbacks of Big Data. Even large companies like Yahoo
+and Facebook have experienced data breaches. 
+
+\subsection{Technical Requirements and Challenges}
+
+To effectively utilize Big Data, an organization must have both the technical infrastructure and expertise. This
+means investing in large databases, powerful processors, and other IT capabilities to handle large volumes of data.
+Additionally, the organization must have the knowledge and skills to manage issues such as data storage and
+transportation, database management, data access and sharing, quality assurance, and scalability. These
+requirements can involve significant investment.
+
+\subsection{Issue Over the Value of Big Data}
+
+One issue with Big Data is the question of its value for organizations. Implementing Big Data can be costly and not
+all organizations can afford it. This can give larger organizations an advantage over smaller ones. Due to the
+costs and risks associated with Big Data, its benefits may only be accessible to large, established businesses,
+widening the competitive gap between them and smaller organizations.
+
+\section{Conclusion}
+According to this literature, Big Data can play a critical role in risk management systems, particularly in
+predictive analysis for credit institutions. While large banking groups have the organizational structure to
+support IT innovations, the collection and management of data remains a challenge for smaller banks.\\\\
+\textbf{This study aims to address the following research inquiries:}
+
+\begin{enumerate}
+    \item What are the current data collection and processing techniques utilized by small banks in the realm of risk
+    management?
+    \item In what ways can data management technologies impact the process of operational risk management?\\
+\end{enumerate}
+In operation risk area, there are some few research papers that discuss detecting fraud in credit cards and online banking. These papers focus on detecting credit card fraud in areas outside of bank risk management or the banking industry. 
+They mention algorithms such as SVM, KNN, Naive Bayes Classifier, and bagging ensemble classifier based on decision 
+tree. These algorithms were mentioned in research papers by Dal Pozzolo (2015), Pun and Lawryshyn (2012), and 
+Vaidya and Mohod (2014)

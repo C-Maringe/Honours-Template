@@ -1,0 +1,349 @@
+\chapter{Methodology}
+
+\section{Introduction}
+Grossman (2022) defines a research procedure as a specific approach or technique used to collect, select, treat, 
+and analyze information about a topic. In this chapter, the researcher presents the methodology of the study with 
+particular emphasis on the Operational Risk modelinging techniques and applying machine Learning (ML)
+and Artificial intelligence (AI) algorithims, deploying trained models and creation of real-time monitoring
+applications using React.js, Django and Grafana. These techniques
+will be discussed in theory and their application to the determination of
+changes or shifts in a process.
+
+\section{Data Collection}
+
+\subsection{Data source}
+The data used for this research was obtained from FBC Bank, a leading banking institution in Zimbabwe. 
+The data was obtained from the bank's transaction records, which were stored in PostgreSQL database. The data 
+covers a period of 2 years from July 26, 2020, to April 15, 2023. The data was collected with the 
+permission of the bank and was anonymized to protect the privacy of the customers.
+
+\subsection{Data Description}
+The dataset used in this study contains 1,200,000 rows and 17 columns. Each row in the dataset represents a 
+transaction that occurred in FBC Bank during the one-year period. The dataset includes 21 variables that describe 
+various aspects of each transaction. The variables included in the dataset are:
+
+\begin{itemize}
+    \item Transaction ID: A unique identifier for each transaction
+    \item Transaction Date: The date on which the transaction occurred
+    \item Transaction Amount: The amount of money involved in the transaction
+    \item Encripted Account Number: The account number of the customer who initiated the transaction
+    \item Account Type: The type of account (savings, current, etc.) involved in the transaction
+    \item Transaction Type: The type of transaction (withdrawal, deposit, transfer, etc.)
+    \item Merchant Category Code: The category of merchant where the transaction occurred
+    \item Encripted Merchant ID: The unique identifier for the merchant where the transaction occurred
+    \item Card Type: The type of card (credit, debit, etc.) used in the transaction
+    \item Card Issuer: The issuer of the card used in the transaction
+    \item Card Network: The network (Visa, Mastercard, etc.) used to process the transaction
+    \item Card Location: The Location where the card was issued
+    \item Card Currency: The currency used for the transaction
+    \item Merchant Location: The Location where the merchant is located
+    \item Merchant Currency: The currency used by the merchant
+    \item Fraud Flag: A binary variable indicating whether the transaction was fraudulent or not
+    \item Risk Score: A score indicating the level of risk associated with the transaction
+\end{itemize}
+The data was preprocessed to remove any duplicates or missing values. In addition, new features were 
+created from the original data to enhance the fraud detection model's performance.
+
+
+\section{Data Processing and Model Creations}
+\subsection{Data Preparation}
+
+The data preparation process involves several steps, including data cleaning to remove any errors or inconsistencies,
+ data transformation to convert the data into a consistent format, and data integration to combine multiple data 
+ sources into a single dataset. Furthermore, data preparation also includes the selection of relevant features or 
+ variables that are most predictive of fraudulent transactions. This involves identifying which transactional 
+ features such as the transaction amount, location, time of day, and transaction frequency, are most useful in 
+ predicting fraudulent activity.\\\\
+Poor data preparation can result in inaccurate predictions and may increase the risk of false positives, which can 
+harm the reputation of the bank and damage customer trust. Therefore, it is essential to ensure that the data is 
+thoroughly prepared before it is used for analysis.\\\\
+In summary, data preparation is an essential step in building a risk modeling framework for detecting fraudulent 
+transactions in the banking sector using big data analytics. By ensuring that the data is accurately cleaned, 
+transformed, formatted, and selected for analysis, banks can improve the accuracy and effectiveness of their risk 
+modeling framework.
+
+\subsection{Multicollinearity Tests}
+
+Correlation matrix: Construct a correlation matrix to identify variables that are highly correlated with each 
+other. Variables with high correlation coefficients to be further investigated to determine if multicollinearity was 
+present.\\\\
+The Variance Inflation Factor (VIF) refers to a metric that indicates the degree to which the variance of the 
+regression coefficient estimate is influenced by the presence of correlation among the predictor variables in a 
+regression model. Calculate the VIF for each variable in the risk modeling 
+framework, and variables with high VIF values are considered to be highly correlated and potentially problematic.
+
+\subsection{Principal Component Analysis}
+
+PCA is a statistical technique that converts a group of interrelated variables into 
+a new set of independent variables known as principal components. The initial principal component represents the 
+direction of maximum variance in the data. The first principal component accounts for the maximum 
+amount of variance in the data, and each subsequent component accounts for the next highest amount of variance.\\\\
+In the context of this research on risk modeling for detecting fraudulent transactions in the banking sector 
+using big data analytics, PCA can be used to address the issue of multicollinearity that arises due to the high 
+correlation between independent variables. By using PCA, Thus it is able to reduce the number of variables in the 
+model while still retaining the most important information, and therefore address the issue of multicollinearity.\\\\
+\textbf{The steps involved in performing PCA are as follows:}
+\begin{itemize}
+\item Standardization: The variables are standardized to ensure that they have the same scale and are comparable.
+
+\item Covariance matrix: The covariance matrix of the standardized variables is calculated.
+
+\item Eigenvalue decomposition: The eigenvectors and eigenvalues are calculated for covariance matrix. 
+The eigenvectors represent the direction of the principal components, and the eigenvalues represent the amount of 
+variance explained by each component.
+
+\item Principal components: The principal components are calculated as linear combinations of the original 
+variables weighted by the eigenvectors.
+
+\item Dimensionality reduction: The number of principal components to retain is determined by examining the 
+eigenvalues. Components with high eigenvalues are retained, and those with low eigenvalues are discarded.\\
+\end{itemize}
+PCA is a useful technique for reducing the dimensionality of a dataset and addressing the issue of 
+multicollinearity. By using PCA in the risk modeling framework for detecting fraudulent transactions in the 
+banking sector using big data analytics, I was able to reduce the number of variables in the model while still 
+retaining the most important information, and therefore improve the accuracy and reliability of the model.\\\\
+Once multicollinearity is identified then use the reduction 
+techniques like (PCA) to reduce the number of variables in the model while still 
+retaining the most important information.
+
+\subsection{Data Sampling}
+
+Data sampling is an important step in the data analysis process as it helps to reduce the computational resources 
+required to analyze the entire dataset and provides a representative subset of data that can be used to build 
+models and draw conclusions.\\\\
+\textbf{The data sampling techniques that can be used are:}
+\begin{itemize}
+    \item Random sampling: This is a simple technique that involves randomly selecting observations from the entire 
+    dataset. Random sampling ensures that each observation has an equal chance of being selected and provides a 
+    representative subset of data.
+    \item Stratified sampling: This technique involves dividing the dataset into strata based on certain 
+    characteristics, such as age, gender, or location. Observations are then randomly selected from each stratum, 
+    ensuring that the subset of data is representative of the entire population.
+    \item Cluster sampling: This technique involves dividing the dataset into clusters based on certain characteristics, 
+    such as geographic location. A subset of clusters is then randomly selected, and all observations within the 
+    selected clusters are included in the analysis.
+    \item Oversampling: This technique involves intentionally over-representing certain groups or classes within the 
+    dataset to address issues of class imbalance.\\
+\end{itemize}
+The specific data sampling technique used depends on the characteristics of the dataset and the research question 
+being investigated. In the context of my research on risk modeling for detecting fraudulent transactions in the 
+banking sector using big data analytics, I used a combination of random and stratified sampling to select a 
+representative subset of data for analysis.\\\\
+Random sampling was used to randomly select a subset of observations from the entire dataset, while stratified 
+sampling was used to divide the dataset into strata based on certain characteristics such as transaction type, 
+amount, and customer profile. Observations were then randomly selected from each stratum, ensuring that the subset 
+of data was representative of the entire population and contained sufficient information to build and test the risk 
+modeling framework.\\\\
+In summary, data sampling is an important step in the data analysis process, and the specific sampling technique 
+used depends on the characteristics of the dataset and the research question being investigated. In the context of 
+my research on risk modeling for detecting fraudulent transactions in the banking sector using big data analytics, 
+I used a combination of random and stratified sampling to select a representative subset of data for analysis.
+
+\subsection{SVM Model}
+Support Vector Machine (SVM) model as one of the classification techniques used to detect fraudulent transactions
+ in the banking sector using big data analytics.\\\\
+SVM is a popular (ML) algorithm used in classification and regression analysis. It works by finding 
+the optimal hyperplane that separates the data points into different classes. In the context of my research, the 
+SVM model was used to classify transactions as either fraudulent or non-fraudulent based on a set of input features 
+such as transaction amount, customer profile, and transaction type.
+
+\subsection{XG-BOOST Model}
+XGBoost is a popular (ML) algorithm used in classification and regression analysis. It is an 
+extension of the gradient boosting algorithm that uses a set of decision trees to model relationships 
+between the input features and the output labels. In the context of my research, XGBoost to be used to classify 
+transactions as either fraudulent or non-fraudulent based on a set of input features such as transaction amount, 
+customer profile, and transaction type.
+
+\subsection{Naive Bayes Model}
+It is a probabilistic (ML) algorithm that utilizes Bayes' theorem to predict the probability of a 
+particular outcome based on the probability of certain input features. In the context of my research, Naive Bayes 
+was used to classify transactions as either fraudulent or non-fraudulent based on a set of input features such as 
+transaction amount, customer profile, and transaction type.
+
+
+\subsection{K-NN Model}
+The K-NN algorithm is a non-parametric, lazy learning algorithm that classifies a new data entry based on the class 
+of its nearest neighbors. In other words, the algorithm looks at the k closest points in the training data to the 
+new data point, and categorises the new data point based on the class of the majority of those k nearest neighbors.
+
+
+\subsection{Logistic Regression Model}
+
+It is a statistical technique that models the probability of a binary response variable (in this 
+case, whether a transaction is fraudulent or not) as a function of the input features. The logistic regression 
+model estimates the coefficients of the input features and uses them to calculate the probability of a transaction 
+being fraudulent.
+
+\subsection{Steps for Model Creations}
+To develop the mentioned models above, the following steps should be taken:
+\begin{itemize}
+\item Data pre-processing: The input features were normalized to ensure that they had similar scales.
+\item Feature selection: A set of relevant input features was selected using feature selection techniques such as 
+correlation analysis and mutual information.
+\item Model training: Train the models using a subset of the data, with the input features and the 
+corresponding class labels (fraudulent or non-fraudulent) as the training data.
+\item Model evaluation: Evaluate their perfomance using a separate subset of the data that was 
+not used for training. The assessment criteria employed should comprise measures such as accuracy, precision, 
+recall, and F1 score.\\
+\end{itemize}
+The results of the models should be compared with other classification techniques such as logistic regression 
+and decision trees.
+
+\section{Model Selection}
+\subsection{Model validations}
+Model validation is a critical step in the machine learning pipeline, and it involves evaluating the performance 
+of a trained model on a dataset that was not used for training.\\\\
+In this research, to validate the performance of the selected models (KNN, Naive Bayes, SVM, Logistic Regression, 
+and XGBoost), k-fold cross-validation to be used. Specifically, spliting the dataset into k folds, and in each 
+iteration of the k-fold cross-validation process, then use k-1 folds for training and the remaining fold for 
+testing. I repeated this process k times, each time using a different fold for testing.\\\\
+For each iteration of the k-fold cross-validation process, compute various performance metrics like accuracy, 
+precision, recall, F1 score, also area under the curve (AUC) for the receiver operating characteristic (ROC) curve.
+The results of the k-fold cross-validation process should then be averaged to obtain the final performance metrics 
+for each model.\\\\
+Additionally, performe a holdout validation, by randomly spliting the dataset 
+into training set consisting of 80\% of the data and a validation set consisting of 20\% of the data.
+The models should be trained with the training set and then evaluated using the
+validation set to obtain their final performance metrics.\\\\
+By using both k-fold cross-validation and holdout validation, ensure that the performance of the selected models 
+is reliable and generalizable to unseen data.
+
+\subsection{Model Selection}
+It is process of choosing the most suitable model among several potential models based on 
+their performance.\\\\
+\textbf{In my This research, use the following steps for model selection:}
+\begin{itemize}
+    \item Preprocessing: Preprocess the dataset by performing feature selection, feature scaling, and handling 
+    missing values.
+    \item Model training: Train multiple classification models, including KNN, Naive Bayes, SVM, Logistic 
+    Regression, and XGBoost, on the preprocessed dataset.
+    \item Performance evaluation: Assess the performance of each model.
+    \item Model selection: Based on the performance metrics, Select the best model among the candidate models.
+    \item Hyperparameter tuning: After selecting the best model, further fine-tuned its hyperparameters using 
+    techniques such as grid search or randomized search to optimize its performance.
+    \item Final evaluation: Finally, Evaluate the performance of the best-tuned model on a separate test dataset 
+    to ensure its generalizability to unseen data.\\
+\end{itemize}
+By following these steps, ensure that the selected model is the best performing model on the validation 
+dataset and had the potential to perform well on unseen data.
+
+\section{Model Deployment to the Cloud}
+\subsection{Flask for Backend}
+\textbf{Flask app development:} Using Flask as the framework for the backend section. Author Should create an 
+instance of Flask and define the routes that would handle incoming requests from the frontend section. For example, 
+there could be a route that would handle a request to predict the likelihood of a fraudulent transaction.\\\\
+\textbf{Data preprocessing:} The incoming data from the frontend section would need to be preprocessed before it could be 
+used for prediction. Create a \textit{Data Pipeline} preprocess the data, and then pass it to the machine 
+learning model for prediction.\\\\
+\textbf{Jupyter Notebook script creation:} Using Jupyter Notebook to create a script that would contain the 
+machine learning model and the necessary code for data preprocessing and prediction. The script would be designed 
+to take in data from the Flask app, perform data preprocessing, and return the predicted output to the Flask app.\\\\
+\textbf{Flask app and Jupyter Notebook integration:} Integrate the Flask app and the Jupyter Notebook script 
+using Python's subprocess module. The Flask app would call the Jupyter Notebook script, and the script would 
+perform the necessary computations before returning the predicted output to the Flask app.
+
+\subsection{Next.js for Frontend}
+\textbf{React.js app development:} Use Next.js as the framework for the frontend section. Create a single-page web 
+application that would allow users to interact with the backend section. The web 
+application would have a user interface that would enable users to input the necessary data for predicting 
+fraudulent transactions.\\\\
+\textbf{Data validation:} The input data from the user would need to be validated before it could be sent to the 
+backend section for prediction. Create all the logical code for data validation, such as ensuring that 
+all required fields were filled and that the data was in the correct format.\\\\
+\textbf{Sending requests to the backend:} After the data had been validated, Then write the necessary 
+code to send the data to the backend section for prediction. The web application would make use of Flask's API 
+endpoints to send requests to the backend.\\\\
+\textbf{Displaying results:} Once the backend had made a prediction, the web application would need to display 
+the results to the user. Then write the necessary code to display the results on the user interface, 
+including any charts or graphs that might be necessary.
+
+\subsection{Firebase For Hosting}
+Firebase is a cloud-based platform that offers various services such as hosting, storage, authentication, and 
+database management. In the proposed methodology, use Firebase for hosting the web application that 
+will be developed using Next.js for the frontend and Flask for the backend.\\\\
+To use Firebase for hosting, first create a Firebase account and then create a new project. Next, then 
+initialize Firebase hosting by installing Firebase CLI on local machine and connecting it to the project 
+created. Then deploy the web application to Firebase hosting by running a few commands in the 
+terminal.\\\\
+Firebase hosting offers various benefits such as SSL encryption, CDN support, and automatic scaling. It is also 
+easy to manage and provides real-time analytics to monitor the performance of the web application.\\\\
+By using Firebase hosting, the web application developed for detecting fraudulent transactions in the banking 
+sector will be easily accessible to the users, with fast response times and high availability. Additionally, 
+Firebase hosting provides an easy way to integrate with other Firebase services, such as authentication and 
+database management, which can further enhance the functionality of the web application.
+
+\subsection{Real Time Predictions}
+Real-time predictions can be a crucial aspect of fraud detection in the banking sector. Implement 
+real-time predictions using the deployed machine learning models on the backend.\\\\
+To implement real-time predictions, Use Flask's RESTful API to expose the machine learning models as 
+endpoints. These endpoints can receive data from the frontend, and the models will then process the data and 
+make predictions in real-time. The predictions will be returned to the frontend, which can then display the 
+results to the user.\\\\
+To ensure that the predictions are processed in real-time, optimize the machine learning models to 
+ensure that they have minimal inference times. This can be achieved by using techniques such as model pruning, 
+quantization, and optimizing the code for hardware acceleration.\\\\
+Overall, the implementation of real-time predictions can significantly improve the usability of the fraud 
+detection system by providing fast and accurate predictions to the users.
+
+\section{Softwares Used}
+\subsection{Programing languages}
+
+\textbf{Python:} This was the main programming language used for data preparation, modeling, and deployment of the machine 
+learning models. With popular Python libraries such as Scikit-learn, Pandas, Numpy, and Matplotlib for various 
+tasks.\\\\
+\textbf{JavaScript:} I used JavaScript to develop the frontend of the web application. Specifically, I used the React.js 
+library to build the user interface components and interact with the backend through RESTful API endpoints.\\\\
+\textbf{HTML and CSS:} I used HTML and CSS to style and layout the frontend of the web application.\\\\
+\textbf{SQL:} I used SQL to interact with the database where the transaction data was stored. I used PostgreSQL as the 
+database management system.\\\\
+\textbf{Jupyter Notebook:} I used Jupyter Notebook to prototype and develop the machine learning models. Jupyter Notebook 
+provided an interactive environment where I could explore the data, experiment with different algorithms and 
+hyperparameters, and visualize the results.\\\\
+\textbf{Flask:} I used Flask as the web framework for the backend of the web application. Flask provided a simple and 
+flexible way to develop RESTful API endpoints that exposed the machine learning models.\\\\
+\subsection{Big Data Tools}
+\textbf{Hadoop:} In the context of my research on risk modeling with big data, I would utilize Hadoop to handle the 
+large volumes of data involved. I would store the dataset in the Hadoop Distributed File System (HDFS) to ensure 
+data scalability and fault tolerance. Hadoop's MapReduce framework would enable distributed processing of the data, 
+allowing for efficient computations and analysis.\\\\
+\textbf{Spark:} Spark would be used in conjunction with Hadoop to perform advanced analytics on the big data. I 
+would leverage Spark's capabilities for distributed data processing, which include batch processing, real-time 
+streaming, and machine learning. Spark's in-memory processing would enhance performance by caching and reusing 
+intermediate data, making it well-suited for iterative algorithms and complex computations.\\\\
+By incorporating Hadoop and Spark into my methodology, I could effectively handle and process the large-scale 
+dataset, enabling more comprehensive risk modeling and fraud detection in the banking sector. These technologies 
+would enhance the scalability, performance, and efficiency of the data processing pipeline, ultimately contributing 
+to more accurate and timely insights.
+
+\subsection{Databases}
+As part of this research on risk modeling with big data, I would need to use databases to store and manage the 
+large volumes of data involved.\\\\
+\textbf{Some of the databases that I would consider using include:}
+\begin{itemize}
+    \item \textbf{MySQL:} is commonly used relational database management system (RDBMS) in various industries.
+    It is open-source, scalable, and reliable, making it a good option for storing and managing structured data.
+    \item \textbf{MongoDB:} MongoDB is a NoSQL document-oriented database that is designed to handle unstructured data. It is 
+    schema-less, meaning that it can store data in a flexible and dynamic format. This would make it a good option for 
+    storing unstructured data such as transaction logs.
+\end{itemize}
+\subsection{Software building Frameworks}
+
+\section{Conclusion}
+
+In this chapter, the focus was on the quantity of data, the techniques utilized to preprocess and sanitize the data, 
+and the origins of the data. Other statistical computations such as multivariate regression were noted.\\\\
+Python, Java, JavaScript programing languages, Spark, Hadoop, Next.js and flask frameworks were used.\\\\
+In conclusion, this methodology chapter outlines the step-by-step process to be used in this research on risk 
+modeling with big data, with the aim of detecting fraudulent transactions in the banking sector. The chapter 
+starts with an overview of the research problem and objectives, followed by a discussion of the data preparation 
+process, including data cleaning, transformation, and sampling. The chapter then presents the different machine 
+learning models used in the analysis, including KNN, Naive Bayes, SVM, Logistic Regression, and XG-Boost, and 
+the methods used for model selection and validation.\\\\
+Additionally, the chapter outlines the process used for deploying the models to the cloud using Flask and Jupyter 
+as the backend and React.js as the frontend, and how Firebase was used for hosting. Finally, the chapter concludes 
+by highlighting the importance of real-time predictions and the software building frameworks used in the study, 
+including Hadoop and Spark.\\\\
+Overall, this methodology chapter provides a comprehensive framework for analyzing large datasets and developing 
+predictive models for detecting fraudulent transactions in the banking sector. The methodology can be adapted for 
+use in other industries where fraud detection is critical, and the different techniques used can help improve 
+accuracy and reduce false positives.
